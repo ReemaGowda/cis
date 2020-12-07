@@ -1,0 +1,26 @@
+$primary :gold;
+
+.container-1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-box-container-1 {
+    border: 10px solid $primary;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#jstext {
+    font-size: 28px;
+    color: $primary;
+}
+

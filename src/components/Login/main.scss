@@ -1,0 +1,64 @@
+
+$primary :white;
+$secondary:gold;
+$colorText:black;
+
+
+
+body {
+    background-color: $primary;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 110%;
+    font-family: 'Lato', sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREep7Ouj7EZHxyI77ZSI-O2OrE1J3qs43f6g&usqp=CAU");
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  margin: 105px auto;
+  text-align: center;
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 60%;
+  border: none;
+  background-color: #DCDCDC;
+}
+input:focus,button:focus {
+  outline: none;
+}
+
+button {
+  color: white;
+    background-color: gold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: none;
+    margin-top: 50px;
+    padding: 15px;
+    width: 67%;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+button:hover {
+  background-color: #B22222;
+}
+/* button:active {
+  background-color: #B22222;
+  transform: translateY(4px);
+}  */
+@media all and (max-width: 450px) {
+  .input_container {
+      width: 100%;
+  }
+}
